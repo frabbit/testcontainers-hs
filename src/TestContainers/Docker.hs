@@ -86,7 +86,7 @@ module TestContainers.Docker
   , withLogs
 
   -- * Wait for containers to become ready
-  , WaitUntilReady
+  , WaitUntilReady(..)
   , waitUntilReady
 
   -- * Only block for defined amounts of time
